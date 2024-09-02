@@ -1,1 +1,8 @@
 # python-api-challenge
+# Author: Paul Keller
+
+# This project, while also arriving late, as did my last one, did fare well after I got some confirmation regarding the help of API keys. I got some more help from Lucas from the tutoring center and that helped organize my project in a clearer way. I also have a better understanding of API keys and how they works with the Python language.
+
+# This code should randomly create a list of cities from the module CityPy using an API key to establish a link between the two. After this list of cities is created, it is cleaned by verifying where those cities are in another module called Geoapify and its corresponding API key. Aftterwards, various scatter plots are created based on the latitude of each city in the data as the independent variable and its maximum temperature, humidity, cloudiness, and wind speed, respectively as the dependent variables. Furthermore, These scatter plots are recreated, but first separating the cities into whether they reside in the northern hemisphere or in the southern hemisphere.
+
+# Next, this same dataframe of graphs is furthered vetted by removing any cities that do not meet the following conditions: maximum temperature between 21 and 27 degrees Celsius, wind speed below 4.5 meters per second, and no cloudiness. After the null variables are removed, this new data frame is ran through the geoapify site to determine the closest hotel. Worldwide graphs are created to show where these cities are without the information included about the nearest hotel. For my remaining data, no hotels were found, but I did my best to make sure that the code confirmed that result.
